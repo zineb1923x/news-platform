@@ -30,13 +30,15 @@ Commençons par l'organisation pratique :
    # Poussez le code vers votre dépôt
    git push -u origin main
 ```
-3. Installation des dépendances : 
+3. Assurez-vous que votre dépôt est publique
+
+4. Ajoutez le lien de votre dépôt comme réponse à votre devoir sur Classroom
+
+5. Installation des dépendances : 
 ```bash
    npm install
    npm run dev
 ```
-4. Assurez-vous que votre dépôt est publique
-5. Ajoutez le lien de votre dépôt comme réponse à votre devoir sur Classroom
 
 ## Structure
 - Frontend : HTML + Bootstrap + Vanilla JavaScript
