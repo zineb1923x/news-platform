@@ -1,0 +1,67 @@
+# Application de News - TP Technologies Web
+
+## Description
+Cette application permet de :
+- Consulter une liste d'articles
+- Voir le détail d'un article
+- Créer un nouvel article
+- (Optionnel) Modifier et supprimer des articles
+
+## Installation
+```bash
+   # Clonez mon dépôt template (ce dépôt)
+   git clone https://github.com/a-daaif/news-template
+   
+   # Renommez le dépôt origin
+   cd learning-platform-template
+   git remote remove origin
+   
+   # Ajoutez votre dépôt comme nouvelle origine
+   git remote add origin https://github.com/[votre-compte]/news-platform
+   
+   # Poussez le code vers votre dépôt
+   git push -u origin main
+
+   npm install
+   npm run dev
+   ```
+
+## Structure
+- Frontend : HTML + Bootstrap + Vanilla JavaScript
+- Backend : Node.js + Express
+- API : DummyJSON pour les données
+
+# Questions à compléter
+
+1. Frontend - Affichage des articles
+   - Compléter la fonction displayNews dans main.js
+   - Utiliser Bootstrap pour créer une mise en page responsive
+   - Ajouter des animations ou transitions (optionnel)
+
+2. Frontend - Gestion des erreurs
+   - Implémenter la fonction showError
+   - Créer une interface utilisateur pour les messages d'erreur
+
+3. Backend - Middleware
+   - Ajouter un middleware pour la gestion des erreurs
+   - (Optionnel) Ajouter un middleware de logging
+
+4. Backend - Routes
+   - Compléter les routes pour la gestion des articles
+   - (Optionnel) Ajouter des routes pour la modification et la suppression
+
+5. Backend - Contrôleur
+   - Implémenter les méthodes du contrôleur
+   - Gérer les différents cas d'erreur
+   - (Optionnel) Ajouter des validations
+
+## Critères d'évaluation
+- Après l'implémentation de chaque question(Qnum) faire un commit/push 
+- Fonctionnalités de base implémentées
+- Utilisation correcte de Bootstrap
+- Code JavaScript bien structuré
+- Gestion des erreurs
+- Bonus : fonctionnalités supplémentaires
+
+# PARTIE B - A compléter chez-soi
+### ...
