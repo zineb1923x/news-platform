@@ -8,12 +8,20 @@ Cette application permet de :
 - (Optionnel) Modifier et supprimer des articles
 
 ## Installation
+Commençons par l'organisation pratique :
+1. Création de votre dépôt :
+   - Sur Github.com
+   - Créez un nouveau dépôt public
+   - Nommez-le "news-platform"
+   - Ne l'initialisez pas avec un README pour le moment
+
+2. Configuration de votre environnement local :
 ```bash
    # Clonez mon dépôt template (ce dépôt)
    git clone https://github.com/a-daaif/news-template
    
    # Renommez le dépôt origin
-   cd learning-platform-template
+   cd news-template
    git remote remove origin
    
    # Ajoutez votre dépôt comme nouvelle origine
@@ -21,10 +29,14 @@ Cette application permet de :
    
    # Poussez le code vers votre dépôt
    git push -u origin main
-
+```
+3. Installation des dépendances : 
+```bash
    npm install
    npm run dev
-   ```
+```
+4. Assurez-vous que votre dépôt est publique
+5. Ajoutez le lien de votre dépôt comme réponse à votre devoir sur Classroom
 
 ## Structure
 - Frontend : HTML + Bootstrap + Vanilla JavaScript
@@ -63,5 +75,3 @@ Cette application permet de :
 - Gestion des erreurs
 - Bonus : fonctionnalités supplémentaires
 
-# PARTIE B - A compléter chez-soi
-### ...
