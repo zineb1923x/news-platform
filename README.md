@@ -1,4 +1,5 @@
 # Application de News - TP Technologies Web
+# Par [Votre Nom et prénom]
 
 ## Description
 Cette application permet de :
