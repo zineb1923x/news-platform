@@ -1,0 +1,21 @@
+{
+    "news": [
+      {
+        "id": 1,
+        "title": "Titre de l'article 1",
+        "image": "https://via.placeholder.com/150",
+        "summary": "Résumé de l'article 1",
+        "date": "2025-01-01",
+        "url": "https://example.com/article1"
+      },
+      {
+        "id": 2,
+        "title": "Titre de l'article 2",
+        "image": "https://via.placeholder.com/150",
+        "summary": "Résumé de l'article 2",
+        "date": "2025-01-02",
+        "url": "https://example.com/article2"
+      }
+    ]
+  }
+  
