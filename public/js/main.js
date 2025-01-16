@@ -51,8 +51,14 @@ function displayNews(news) {
 
 // TODO: Question 2 - Créer une fonction pour gérer les erreurs
 function showError(message) {
-    // Afficher un message d'erreur avec Bootstrap
+    const newsContainer = document.getElementById('news-container');
+    newsContainer.innerHTML = `
+        <div class="alert alert-danger" role="alert">
+            ${message}
+        </div>
+    `;
 }
+
 
 
 // Initialisation
